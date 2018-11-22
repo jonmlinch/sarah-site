@@ -5,7 +5,7 @@ const port = process.env.PORT || 5000;
 
 // create a GET route
 app.get('/express_backend', (req, res) => {
-  res.send({ express: 'YOUR EXPRESS BACKEND IS CONNECTED TO REACT' });
+  res.send({ express: 'THIS IS THE BACKEND' });
 });
 
 // console.log that your server is up and running
